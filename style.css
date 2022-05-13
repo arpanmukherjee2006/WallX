@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2) ;
+
+}
+
+.header-section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url(images/main2.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+
+}
+
+.waves{
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    left: 0;
+   }
+
+.logo{
+   border-radius: 50%;
+   width: 24%;
+}
+
+
+
+.sub-line{
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    word-spacing: 2px;
+}
+
+
+
+.search-box{
+    display: block;
+    margin: 60px auto 20px ;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+
+}
+
+.search-btn{
+     padding: 10px 30px;
+     border-radius: 5px;
+     text-transform: capitalize;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     background: black;
+     color: #fff;
+}
+
+.search-btn:hover{
+    cursor: pointer;
+}
+
+
+img {
+    width: 100%;
+    cursor: pointer;
+  }
+  .photo-grid-container {
+    column-count: 5;
+    column-width: 300px;
+  }
+  .photo-grid-item {
+    margin: 0 auto 15px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+.image-popup{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    height: 60vh;
+    background: #f9f9f9;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-popup.hide{
+    display: none;
+    opacity: 0;
+}
+
+
+.close-button{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+
+}
+
+
+.download-btn{
+    text-transform: capitalize;
+    padding: 10px 20px;
+    background: #001900;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.download-btn:hover{
+    color: #fff;
+}
+
+.large-img{
+    height: 80%;
+    width: auto;
+    max-width: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.controls{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.pre-btn{
+    left: 20px;
+    width: 30px;
+}
+
+.nxt-btn{
+    right: 20px;
+    width: 30px;
+}
+
+.footer{
+    background-color: rgb(60 49 63);
+}
+
+
+.footer-img{
+  width: 7%;
+ text-align: center;
+ border-radius: 100px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.arpan-btn{
+    text-decoration: none;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.arpan-btn:hover{
+    background: linear-gradient( #008c2c, #094b00ec);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.arpan-btn:active{
+    transform: translateY(-1px); 
+}
